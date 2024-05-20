@@ -2,6 +2,9 @@
 
 Welcome to the Maze Solver project! This repository contains implementations of two fundamental graph traversal algorithms, Breadth-First Search (BFS) and Depth-First Search (DFS), to solve maze problems. These algorithms are used to find paths from a start point to an end point within a maze, demonstrating their practical applications in pathfinding and AI.
 
+![dfsvsbfs](https://github.com/codewithanirban/Maze-solve/assets/155054558/11b53480-9f39-425d-89eb-60368f7be570)
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -56,7 +59,7 @@ To run this project, you need Python installed on your machine. Follow the steps
 
 To run the maze solver, use the following command:
 ```bash
-python maze_solver.py --algorithm [bfs|dfs] --input maze.txt
+python maze.py maze1.txt
 ```
 
 ### Input Format
@@ -105,12 +108,14 @@ DFS explores as far as possible along each branch before backtracking. It uses a
 
 Run BFS on a sample maze:
 ```bash
-python maze_solver.py --algorithm bfs --input maze.txt
+python maze.py maze1.txt
 ```
 
 Run DFS on a sample maze:
+
+Simply go to the maze.py file and uncomment out the commented code and it will run the DFS code.
 ```bash
-python maze_solver.py --algorithm dfs --input maze.txt
+python maze.py  maze1.txt
 ```
 
 ## Contributing
